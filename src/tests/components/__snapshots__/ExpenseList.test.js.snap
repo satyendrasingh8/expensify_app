@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expenseList from expenses 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExpenseList
+    expenses={
+        Array [
+            Object {
+              "amount": 1500,
+              "createdAt": 0,
+              "description": "hello",
+              "id": "1",
+              "note": "",
+            },
+            Object {
+              "amount": 1300,
+              "createdAt": -950400000,
+              "description": "hi",
+              "id": "2",
+              "note": "",
+            },
+            Object {
+              "amount": 400,
+              "createdAt": 864000000,
+              "description": "hope",
+              "id": "3",
+              "note": "",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          ExpenseList  
+</h1>,
+        Array [
+          <ExpenseListItem
+            amount={1500}
+            createdAt={0}
+            description="hello"
+            id="1"
+            note=""
+/>,
+          <ExpenseListItem
+            amount={1300}
+            createdAt={-950400000}
+            description="hi"
+            id="2"
+            note=""
+/>,
+          <ExpenseListItem
+            amount={400}
+            createdAt={864000000}
+            description="hope"
+            id="3"
+            note=""
+/>,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "ExpenseList  ",
+        },
+        "ref": null,
+        "rendered": "ExpenseList  ",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "amount": 1500,
+          "createdAt": 0,
+          "description": "hello",
+          "id": "1",
+          "note": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "amount": 1300,
+          "createdAt": -950400000,
+          "description": "hi",
+          "id": "2",
+          "note": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "amount": 400,
+          "createdAt": 864000000,
+          "description": "hope",
+          "id": "3",
+          "note": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            ExpenseList  
+</h1>,
+          Array [
+            <ExpenseListItem
+              amount={1500}
+              createdAt={0}
+              description="hello"
+              id="1"
+              note=""
+/>,
+            <ExpenseListItem
+              amount={1300}
+              createdAt={-950400000}
+              description="hi"
+              id="2"
+              note=""
+/>,
+            <ExpenseListItem
+              amount={400}
+              createdAt={864000000}
+              description="hope"
+              id="3"
+              note=""
+/>,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "ExpenseList  ",
+          },
+          "ref": null,
+          "rendered": "ExpenseList  ",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "amount": 1500,
+            "createdAt": 0,
+            "description": "hello",
+            "id": "1",
+            "note": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "amount": 1300,
+            "createdAt": -950400000,
+            "description": "hi",
+            "id": "2",
+            "note": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "amount": 400,
+            "createdAt": 864000000,
+            "description": "hope",
+            "id": "3",
+            "note": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`should render expenseListItem from expenses 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExpenseListItem
+    expenses={
+        Array [
+            Object {
+              "amount": 1500,
+              "createdAt": 0,
+              "description": "hello",
+              "id": "1",
+              "note": "",
+            },
+            Object {
+              "amount": 1300,
+              "createdAt": -950400000,
+              "description": "hi",
+              "id": "2",
+              "note": "",
+            },
+            Object {
+              "amount": 400,
+              "createdAt": 864000000,
+              "description": "hope",
+              "id": "3",
+              "note": "",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Unknown
+          to="/edit/undefined"
+>
+          <h2>
+                     
+          </h2>
+</Unknown>,
+        <p>
+           - 
+           
+</p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <h2>
+             
+</h2>,
+          "to": "/edit/undefined",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+            " ",
+          ],
+          "type": "h2",
+        },
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "displayName": "Link",
+          "propTypes": Object {
+            "innerRef": [Function],
+            "onClick": [Function],
+            "replace": [Function],
+            "target": [Function],
+            "to": [Function],
+          },
+          "render": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            " - ",
+            undefined,
+            " ",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          " - ",
+          undefined,
+          " ",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Unknown
+            to="/edit/undefined"
+>
+            <h2>
+                         
+            </h2>
+</Unknown>,
+          <p>
+             - 
+             
+</p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <h2>
+               
+</h2>,
+            "to": "/edit/undefined",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                undefined,
+                " ",
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+              " ",
+            ],
+            "type": "h2",
+          },
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "Link",
+            "propTypes": Object {
+              "innerRef": [Function],
+              "onClick": [Function],
+              "replace": [Function],
+              "target": [Function],
+              "to": [Function],
+            },
+            "render": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+              " - ",
+              undefined,
+              " ",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+            " - ",
+            undefined,
+            " ",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

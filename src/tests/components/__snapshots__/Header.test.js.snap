@@ -1,0 +1,549 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Header 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Expensify 
+</h1>,
+        <ul>
+          <li>
+                     
+                    <Unknown
+                              activeClassName="is-active"
+                              exact={true}
+                              to="/"
+                    >
+                               Dasboard page 
+                    </Unknown>
+          </li>
+          <li>
+                     
+                    <Unknown
+                              activeClassName="is-active"
+                              to="/create"
+                    >
+                               create page 
+                    </Unknown>
+          </li>
+          <li>
+                     
+                    <Unknown
+                              activeClassName="is-active"
+                              to="/help"
+                    >
+                               help page 
+                    </Unknown>
+          </li>
+</ul>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Expensify ",
+        },
+        "ref": null,
+        "rendered": "Expensify ",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li>
+               
+              <Unknown
+                            activeClassName="is-active"
+                            exact={true}
+                            to="/"
+              >
+                             Dasboard page 
+              </Unknown>
+</li>,
+            <li>
+               
+              <Unknown
+                            activeClassName="is-active"
+                            to="/create"
+              >
+                             create page 
+              </Unknown>
+</li>,
+            <li>
+               
+              <Unknown
+                            activeClassName="is-active"
+                            to="/help"
+              >
+                             help page 
+              </Unknown>
+</li>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                <Unknown
+                  activeClassName="is-active"
+                  exact={true}
+                  to="/"
+>
+                   Dasboard page 
+</Unknown>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "children": " Dasboard page ",
+                  "exact": true,
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": " Dasboard page ",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "displayName": "NavLink",
+                  "propTypes": Object {
+                    "activeClassName": [Function],
+                    "activeStyle": [Function],
+                    "aria-current": [Function],
+                    "className": [Function],
+                    "exact": [Function],
+                    "innerRef": [Function],
+                    "isActive": [Function],
+                    "location": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "strict": [Function],
+                    "style": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                <Unknown
+                  activeClassName="is-active"
+                  to="/create"
+>
+                   create page 
+</Unknown>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "children": " create page ",
+                  "to": "/create",
+                },
+                "ref": null,
+                "rendered": " create page ",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "displayName": "NavLink",
+                  "propTypes": Object {
+                    "activeClassName": [Function],
+                    "activeStyle": [Function],
+                    "aria-current": [Function],
+                    "className": [Function],
+                    "exact": [Function],
+                    "innerRef": [Function],
+                    "isActive": [Function],
+                    "location": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "strict": [Function],
+                    "style": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                " ",
+                <Unknown
+                  activeClassName="is-active"
+                  to="/help"
+>
+                   help page 
+</Unknown>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              " ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "is-active",
+                  "children": " help page ",
+                  "to": "/help",
+                },
+                "ref": null,
+                "rendered": " help page ",
+                "type": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "displayName": "NavLink",
+                  "propTypes": Object {
+                    "activeClassName": [Function],
+                    "activeStyle": [Function],
+                    "aria-current": [Function],
+                    "className": [Function],
+                    "exact": [Function],
+                    "innerRef": [Function],
+                    "isActive": [Function],
+                    "location": [Function],
+                    "onClick": [Function],
+                    "replace": [Function],
+                    "strict": [Function],
+                    "style": [Function],
+                    "target": [Function],
+                    "to": [Function],
+                  },
+                  "render": [Function],
+                },
+              },
+            ],
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Expensify 
+</h1>,
+          <ul>
+            <li>
+                         
+                        <Unknown
+                                    activeClassName="is-active"
+                                    exact={true}
+                                    to="/"
+                        >
+                                     Dasboard page 
+                        </Unknown>
+            </li>
+            <li>
+                         
+                        <Unknown
+                                    activeClassName="is-active"
+                                    to="/create"
+                        >
+                                     create page 
+                        </Unknown>
+            </li>
+            <li>
+                         
+                        <Unknown
+                                    activeClassName="is-active"
+                                    to="/help"
+                        >
+                                     help page 
+                        </Unknown>
+            </li>
+</ul>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Expensify ",
+          },
+          "ref": null,
+          "rendered": "Expensify ",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                 
+                <Unknown
+                                activeClassName="is-active"
+                                exact={true}
+                                to="/"
+                >
+                                 Dasboard page 
+                </Unknown>
+</li>,
+              <li>
+                 
+                <Unknown
+                                activeClassName="is-active"
+                                to="/create"
+                >
+                                 create page 
+                </Unknown>
+</li>,
+              <li>
+                 
+                <Unknown
+                                activeClassName="is-active"
+                                to="/help"
+                >
+                                 help page 
+                </Unknown>
+</li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <Unknown
+                    activeClassName="is-active"
+                    exact={true}
+                    to="/"
+>
+                     Dasboard page 
+</Unknown>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "is-active",
+                    "children": " Dasboard page ",
+                    "exact": true,
+                    "to": "/",
+                  },
+                  "ref": null,
+                  "rendered": " Dasboard page ",
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "displayName": "NavLink",
+                    "propTypes": Object {
+                      "activeClassName": [Function],
+                      "activeStyle": [Function],
+                      "aria-current": [Function],
+                      "className": [Function],
+                      "exact": [Function],
+                      "innerRef": [Function],
+                      "isActive": [Function],
+                      "location": [Function],
+                      "onClick": [Function],
+                      "replace": [Function],
+                      "strict": [Function],
+                      "style": [Function],
+                      "target": [Function],
+                      "to": [Function],
+                    },
+                    "render": [Function],
+                  },
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <Unknown
+                    activeClassName="is-active"
+                    to="/create"
+>
+                     create page 
+</Unknown>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "is-active",
+                    "children": " create page ",
+                    "to": "/create",
+                  },
+                  "ref": null,
+                  "rendered": " create page ",
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "displayName": "NavLink",
+                    "propTypes": Object {
+                      "activeClassName": [Function],
+                      "activeStyle": [Function],
+                      "aria-current": [Function],
+                      "className": [Function],
+                      "exact": [Function],
+                      "innerRef": [Function],
+                      "isActive": [Function],
+                      "location": [Function],
+                      "onClick": [Function],
+                      "replace": [Function],
+                      "strict": [Function],
+                      "style": [Function],
+                      "target": [Function],
+                      "to": [Function],
+                    },
+                    "render": [Function],
+                  },
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  <Unknown
+                    activeClassName="is-active"
+                    to="/help"
+>
+                     help page 
+</Unknown>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "is-active",
+                    "children": " help page ",
+                    "to": "/help",
+                  },
+                  "ref": null,
+                  "rendered": " help page ",
+                  "type": Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "displayName": "NavLink",
+                    "propTypes": Object {
+                      "activeClassName": [Function],
+                      "activeStyle": [Function],
+                      "aria-current": [Function],
+                      "className": [Function],
+                      "exact": [Function],
+                      "innerRef": [Function],
+                      "isActive": [Function],
+                      "location": [Function],
+                      "onClick": [Function],
+                      "replace": [Function],
+                      "strict": [Function],
+                      "style": [Function],
+                      "target": [Function],
+                      "to": [Function],
+                    },
+                    "render": [Function],
+                  },
+                },
+              ],
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
