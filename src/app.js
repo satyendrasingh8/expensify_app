@@ -21,10 +21,14 @@ import {addexpense} from './actions/expenses';
 import {setTextFilter} from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
   //const store = configureStore();
-  store.dispatch(addexpense({description:'Water bill' , amount:5000}))
-  store.dispatch(addexpense({ description:'Gas bill',createdAt:1000}));
-  store.dispatch(addexpense({description:'rent' , amount:10950}))
 
+
+ // store.dispatch(addexpense({description:'Water bill' , amount:5000}))
+  //store.dispatch(addexpense({ description:'Gas bill',createdAt:1000}));
+  //store.dispatch(addexpense({description:'rent' , amount:10950}))
+
+
+  
   /*
   store.dispatch(setTextFilter('water'));
 
