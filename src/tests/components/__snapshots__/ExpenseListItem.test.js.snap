@@ -52,8 +52,11 @@ ShallowWrapper {
           </h2>
 </Unknown>,
         <p>
-           - 
-           
+          $0.00
+          <strong>
+                     -  
+          </strong>
+          Thu Jan 1st,1970
 </p>,
       ],
     },
@@ -106,18 +109,28 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            undefined,
-            " - ",
-            undefined,
-            " ",
+            "$0.00",
+            <strong>
+               -  
+</strong>,
+            "Thu Jan 1st,1970",
           ],
         },
         "ref": null,
         "rendered": Array [
-          undefined,
-          " - ",
-          undefined,
-          " ",
+          "$0.00",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " -  ",
+            },
+            "ref": null,
+            "rendered": " -  ",
+            "type": "strong",
+          },
+          "Thu Jan 1st,1970",
         ],
         "type": "p",
       },
@@ -139,8 +152,11 @@ ShallowWrapper {
             </h2>
 </Unknown>,
           <p>
-             - 
-             
+            $0.00
+            <strong>
+                         -  
+            </strong>
+            Thu Jan 1st,1970
 </p>,
         ],
       },
@@ -193,18 +209,28 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              undefined,
-              " - ",
-              undefined,
-              " ",
+              "$0.00",
+              <strong>
+                 -  
+</strong>,
+              "Thu Jan 1st,1970",
             ],
           },
           "ref": null,
           "rendered": Array [
-            undefined,
-            " - ",
-            undefined,
-            " ",
+            "$0.00",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " -  ",
+              },
+              "ref": null,
+              "rendered": " -  ",
+              "type": "strong",
+            },
+            "Thu Jan 1st,1970",
           ],
           "type": "p",
         },

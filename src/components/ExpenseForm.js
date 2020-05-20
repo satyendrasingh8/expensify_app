@@ -77,7 +77,7 @@ onChange={this.onDescriptionChange}
  />
  <input 
  type="text"
- placeholder="Amount"
+ placeholder="Amount in $"
  value={this.state.amount}
 onChange={this.onAmountChange}
  /> 
