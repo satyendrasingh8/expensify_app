@@ -20,6 +20,8 @@ import store from './store/configureStore';
 import {addexpense} from './actions/expenses';
 import {setTextFilter} from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
+import './firebase/firebase';
+
   //const store = configureStore();
 
 

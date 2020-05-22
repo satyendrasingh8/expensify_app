@@ -10,7 +10,7 @@ ShallowWrapper {
             "push": [Function],
           }
     }
-    onSubmit={[Function]}
+    startAddExpense={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
